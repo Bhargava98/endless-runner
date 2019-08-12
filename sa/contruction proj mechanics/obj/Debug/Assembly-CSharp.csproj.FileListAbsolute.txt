@@ -1,0 +1,2 @@
+C:\Users\bharg\Desktop\sa\contruction proj mechanics\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\bharg\Desktop\sa\contruction proj mechanics\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

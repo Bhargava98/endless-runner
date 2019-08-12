@@ -1,0 +1,25 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class WoodBoxesScript : MonoBehaviour
+{
+    public int health;
+    public GameObject boxDestroyEffect;
+
+    private void Update()
+    {
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+            Instantiate(boxDestroyEffect,transform.position, Quaternion.identity);
+
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+    }
+   
+}
